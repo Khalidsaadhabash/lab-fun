@@ -91,105 +91,105 @@ console.log("==========================");
 
 
 
-const number =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// const number =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
 
-number.filter(function(i){
-    console.log("========================");
+// number.filter(function(i){
+//     console.log("========================");
 
-    console.log((number[i] %2 ==0))
-})
-
-
-let number1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-
-const newnum =number1.filter(function (currentValue){// flitter inside function 
-    return currentValue %2 !=0
-}
-)
-console.log("========================");
-console.log(newnum);
-
-let number2=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-
-const newnum1 =number2.filter(function (currentValue){// flitter inside function 
-    return currentValue %2 ==0
-}
-);
+//     console.log((number[i] %2 ==0))
+// })
 
 
-const First = number2.find(function (x){//find first element 
-    return x%2==0
-});
-console.log("========================");
-console.log(number2);
-console.log(newnum1);
-console.log(First);
+// let number1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+
+// const newnum =number1.filter(function (currentValue){// flitter inside function 
+//     return currentValue %2 !=0
+// }
+// )
+// console.log("========================");
+// console.log(newnum);
+
+// let number2=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+
+// const newnum1 =number2.filter(function (currentValue){// flitter inside function 
+//     return currentValue %2 ==0
+// }
+// );
 
 
-number2.forEach(function(x,i){
-   number2[i]=x*2
-})
-console.log("========================");
-console.log(number2);
-console.log("========================");
+// const First = number2.find(function (x){//find first element 
+//     return x%2==0
+// });
+// console.log("========================");
+// console.log(number2);
+// console.log(newnum1);
+// console.log(First);
 
 
-number2.forEach(function (value ,index,arr) {
-    console.log(value);
-});
-
-console.log("========================");
-console.log(number2.includes(9));
-console.log(number2.reverse());
-console.log(number2.sort());
+// number2.forEach(function(x,i){
+//    number2[i]=x*2
+// })
+// console.log("========================");
+// console.log(number2);
+// console.log("========================");
 
 
-number2.sort(function (a,b){//ترتيب 
-    return a-b
-})
-console.log("========================");
-console.log(number2);
+// number2.forEach(function (value ,index,arr) {
+//     console.log(value);
+// });
+
+// console.log("========================");
+// console.log(number2.includes(9));
+// console.log(number2.reverse());
+// console.log(number2.sort());
 
 
-const isOdd=number2.every(function (x){
-    return x%2 !=0
-})
-
-console.log("========================");
-console.log(isOdd);
-
-
-const iseven=number2.some(function (x){
-    return x%2 ==0
-})
-
-console.log("========================");
-console.log(iseven);
+// number2.sort(function (a,b){//ترتيب 
+//     return a-b
+// })
+// console.log("========================");
+// console.log(number2);
 
 
-const obj =
-[
-    { 
-    name:"khalid",
-    age:22,
-},
-{
-    name:"ali",
-    age:22,
-},
+// const isOdd=number2.every(function (x){
+//     return x%2 !=0
+// })
 
-]
-console.log("========================");
-obj.map ((value,index)=>{
-console.log(value.name);
-})
-console.log("========================");
-console.log(obj);
+// console.log("========================");
+// console.log(isOdd);
 
-console.log("========================");
 
-//=======================
+// const iseven=number2.some(function (x){
+//     return x%2 ==0
+// })
+
+// console.log("========================");
+// console.log(iseven);
+
+
+// const obj =
+// [
+//     { 
+//     name:"khalid",
+//     age:22,
+// },
+// {
+//     name:"ali",
+//     age:22,
+// },
+
+// ]
+// console.log("========================");
+// obj.map ((value,index)=>{
+// console.log(value.name);
+// })
+// console.log("========================");
+// console.log(obj);
+
+// console.log("========================");
+
+//=======================lab=================================
 
 labArr = [
     {
